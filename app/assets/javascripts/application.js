@@ -20,6 +20,7 @@
 //= require material.min
 //= require material-dashboard
 //= require material
+//= require jsapi
 //= require chartkick
 //= require_tree .
 

@@ -63,7 +63,7 @@
 						<p class="category">New Students</p>
 					</div>
 					<div class="panel-body">
-						<%= line_chart current_user.students.group_by_day(:created_at).count, library: {backgroundColor: "#eee"} %>
+						<%= area_chart current_user.students.group_by_day(:created_at,format: "%a").count, library: {backgroundColor: "#eee"} %>
 					</div>
 				</div>
 			</div>
