@@ -16,6 +16,9 @@ gem 'material_design_lite-sass'
 gem "font-awesome-rails"
 gem 'omniauth-stripe-connect'
 gem 'figaro'
+gem 'stripe_event'
+gem "chartkick"
+gem 'groupdate'
 
 
 group :production do

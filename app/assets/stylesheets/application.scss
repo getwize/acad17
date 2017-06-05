@@ -23,3 +23,54 @@
 body {
 font-family: 'Roboto', sans-serif;
 }
+
+.sidebar .logo .simple-text, .off-canvas-sidebar .logo .simple-text {
+text-transform: capitalize;
+padding: 5px 0px;
+display: block;
+font-size: 18px;
+color: #3C4858;
+text-align: center;
+font-weight: bold;
+line-height: 30px;
+}
+
+
+.navbar {
+border-radius: 0px!important;
+}
+
+.category {
+margin-bottom: 0px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.main-panel {
+position: relative;
+z-index: 2;
+overflow: auto;
+width: 100%!important;
+min-height: 100%;
+-webkit-transform: translate3d(0px, 0, 0);
+transform: translate3d(0px, 0, 0);
+-webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+}
+
+.panel-body i.material-icons {
+font-size: 44px;
+}
+
+.navbar .navbar-nav > li > a {
+color: rgba(255, 255, 255, 0.62);
+font-weight: bold;
+}
+
+.category {
+	color: rgba(255, 255, 255, 0.62);
+}
+
+h3 {
+	margin: 24px;
+}
